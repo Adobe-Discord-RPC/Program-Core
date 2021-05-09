@@ -1,0 +1,44 @@
+{
+  "name": "adobe-discord-rpc_core",
+  "version": "4.0.0-pre1",
+  "description": "Adobe Discord RPC Program Core",
+  "main": "src/app.js",
+  "bin": {
+    "app": "src/app.js"
+  },
+  "scripts": {
+    "update-dependencies": "chcp 65001 && npx ncu -u && npm i -D --save",
+    "build": "chcp 65001 && npx pkg . --out-path build",
+    "start": "chcp 65001 && node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adobe-Discord-RPC/Program-Core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adobe-Discord-RPC/Program-Core/issues"
+  },
+  "homepage": "https://adobe.discordrpc.org",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord-rpc": "^3.2.0",
+    "ejs": "^3.1.6",
+    "ejs-lint": "^1.2.0",
+    "moment": "^2.29.1",
+    "node-powershell": "^4.0.0",
+    "powershell": "^2.3.2",
+    "ps-node": "^0.1.6",
+    "regedit": "^3.0.3",
+    "request": "^2.88.2",
+    "socket.io-client": "^4.0.2",
+    "waait": "^1.0.5"
+  },
+  "author": "Adobe Discord RPC Team",
+  "license": "GPL-3.0",
+  "pkg": {
+    "scripts": "src/**/*.js",
+    "targets": [
+      "latest-win-x64"
+    ]
+  }
+}

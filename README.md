@@ -12,12 +12,28 @@
 
 ## Ko
 
-Adobe Discord RPC 메인 프로그램의 레포지토리입니다.
+Adobe Discord RPC 메인 프로그램 레포지토리입니다.
 
-설치 방법은 [홈페이지](https://adoberpc.hwahyang.space)를 참고 해 주세요.
+설치 방법은 [홈페이지](https://adobe.discordrpc.org)를 참고 해 주세요.
+
+---
+
+개발 : [화향](https://hwahyang.space), [틸토](https://tilto.kro.kr)
+
+UI 디자인 : [화향](https://hwahyang.space), [틸토](https://tilto.kro.kr)
+
+일부 아이콘은 [Flaticon](https://flaticon.com)과 [dribbble](https://dribbble.com)에서 가져왔습니다.
 
 ## En
 
 This is the Repository of the Adobe Discord RPC main program.
 
-Please refer to the [homepage](https://adoberpc.hwahyang.space) for installation instructions.
+Please refer to the [homepage](https://adobe.discordrpc.org) for installation instructions.
+
+---
+
+Develop by. [HwaHyang](https://hwahyang.space), [Tilto](https://tilto.kro.kr)
+
+UI Design by. [HwaHyang](https://hwahyang.space), [Tilto](https://tilto.kro.kr)
+
+Some Icons by. [Flaticon](https://flaticon.com), [dribbble](https://dribbble.com)
